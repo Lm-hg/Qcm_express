@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>QCM </h1>
+    <form action="#" method="post" id="form1">
+        <fieldset>
+            <legend>Question 1: Quelle est la capitale de la France ?</legend>
+            <label>
+                <input type="radio" name="q1" value="a"> Londres
+            </label><br>
+            <label>
+                <input type="radio" name="q1" value="b"> Berlin
+            </label><br>
+            <label>
+                <input type="radio" name="q1" value="c"> Paris
+            </label>
+            <br>
+            <span style="display: none;">Mauvaise réponse</span>
+
+        </fieldset>
+        <input type="submit" value="Corriger">
+    </form>
+    <form action="" method="post" id="form2">
+        <fieldset>
+            <legend>Question 2: Quel est le plus grand océan du monde ?</legend>
+            <label>
+                <input type="radio" name="q2" value="a"> Océan Atlantique
+            </label><br>
+            <label>
+                <input type="radio" name="q2" value="b"> Océan Indien
+            </label><br>
+            <label>
+                <input type="radio" name="q2" value="c"> Océan Pacifique
+            </label>
+            <br>
+            <span style="display: none;">Mauvaise réponse</span>
+            
+        </fieldset>
+        <input type="submit" value="Corriger">
+    </form>
+    <form action="" method="post" id="form3">
+        <fieldset>
+            <legend>Question 3: Quelle note mérite cet étudiant ?</legend>
+            <label>
+                <input type="radio" name="q3" value="a"> 15
+            </label><br>
+            <label>
+                <input type="radio" name="q3" value="b"> 18
+            </label><br>
+            <label>
+                <input type="radio" name="q3" value="c"> 14
+            </label>
+            <br>
+            <span style="display: none;">Mauvaise réponse</span>
+            
+        </fieldset>
+        <input type="submit" value="Corriger" >
+    </form>
+    <form action="" id="form4">
+        <fieldset>
+            <legend>Question 4: Quelle est la planète la plus proche du Soleil ?</legend>
+            <label>
+                <input type="radio" name="q4" value="a"> Mercure
+            </label><br>
+            <label>
+                <input type="radio" name="q4" value="b"> Terre
+            </label><br>
+            <label>
+                <input type="radio" name="q4" value="c"> Vénus
+            </label>
+            <br>
+            <span style="display: none;">Mauvaise réponse</span>
+        </fieldset>
+        <input type="submit" value="Corriger">
+    </form>
+    <form action="" id="form5">
+        <fieldset>
+            <legend>Question 5: Quelle est la formule chimique de l'eau ?</legend>
+            <label>
+                <input type="radio" name="q5" value="a"> CO2
+            </label><br>
+            <label>
+                <input type="radio" name="q5" value="b"> H2O
+            </label><br>
+            <label>
+                <input type="radio" name="q5" value="c"> O2
+            </label>
+            <br>
+            <span class="error" style="display: none;">Mauvaise réponse</span>
+            
+        </fieldset>
+        
+        <input type="submit" value="Corriger">
+    </form>
+    <span id="Good" style="display: none;">Félicications</span>
+</body>
+<script src="./script.js"></script>
+</html>

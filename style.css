@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+h1 {
+    color: #333;
+}
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#Good {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.error {
+    display: none;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#form2,#form3,#form4,#form5{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+#form1{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
