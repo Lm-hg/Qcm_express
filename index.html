@@ -57,6 +57,7 @@
                 <input type="radio" name="q3" value="c"> 14
             </label>
             <br>
+            
             <span style="display: none;">Mauvaise réponse</span>
             
         </fieldset>
@@ -98,7 +99,14 @@
         
         <input type="submit" value="Corriger">
     </form>
-    <span id="Good" style="display: none;">Félicications</span>
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <span id="Good" >Félicications</span>
+        </div>
+      
+      </div>
 </body>
 <script src="./script.js"></script>
 </html>

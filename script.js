@@ -94,6 +94,18 @@ form5.addEventListener('submit', async function(e){
         error.style.color='red'
 
     }else{
-        good.style.display='block'
-    }
-})
+        var modal = document.getElementById("myModal");
+
+
+        var span1 = document.getElementsByClassName("close")[0];
+        
+        span1.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+            modal.style.display = "block";
+        }   
+    })
+
+
+
